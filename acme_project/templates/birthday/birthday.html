@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-
+<form>
+    <ul>
+        {{ form.as_p }}
+    </ul>
+    <input type="submit" value="Submit">
+</form>
 {% endblock %}
